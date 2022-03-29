@@ -64,12 +64,15 @@ const ForgotPassword = () => {
 
   return (
     <>
-      <h1 className="jumbotron text-center bg-primary square">
+    <div className="homepage-bgimage">
+        <div class="login-box">
+      <h1 className="text-warning" >
         Forgot Password
       </h1>
 
-      <div className="container col-md-4 offset-md-4 pb-5">
+      <div className="container ">
         <form onSubmit={success ? handleResetPassword : handleSubmit}>
+        <div class="user-box">
           <input
             type="email"
             className="form-control mb-4 p-4"
@@ -77,9 +80,10 @@ const ForgotPassword = () => {
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter email"
             required
-          />
+          /></div>
           {success && (
             <>
+              <div class="user-box">
               <input
                 type="text"
                 className="form-control mb-4 p-4"
@@ -87,8 +91,8 @@ const ForgotPassword = () => {
                 onChange={(e) => setCode(e.target.value)}
                 placeholder="Enter secret code"
                 required
-              />
-
+              /></div>
+  <div class="user-box">
               <input
                 type="password"
                 className="form-control mb-4 p-4"
@@ -96,18 +100,25 @@ const ForgotPassword = () => {
                 onChange={(e) => setNewPassword(e.target.value)}
                 placeholder="New Password"
                 required
-              />
+              /></div>
             </>
           )}
-
+  <a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                
           <button
             type="submit"
-            className="btn btn-primary btn-block p-2"
+            className="btn btn-primary "
             disabled={loading || !email}
           >
             {loading ? <SyncOutlined spin /> : "Submit"}
-          </button>
+          </button>,</a>
         </form>
+      </div>
+      </div>
       </div>
     </>
   );

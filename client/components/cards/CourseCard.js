@@ -10,12 +10,12 @@ const CourseCard = ({ course }) => {
     <Link href={`/course/${slug}`}>
       <a>
         <Card
-          className="mb-4"
+          className="login-box4"
           cover={
             <img
               src={image.Location}
               alt={name}
-              style={{ height: "200px", objectFit: "cover" }}
+              style={{  objectFit: "cover" }}
               className="p-1"
             />
           }

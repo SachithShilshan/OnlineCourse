@@ -21,13 +21,14 @@ const InstructorIndex = () => {
 
   return (
     <InstructorRoute>
-      <h1 className="jumbotron text-center square">Instructor Dashboard</h1>
+     <h1 className="jumbotron4 text-center square"><div className="login-box4 ">Instructor dashboard</div></h1>
+
       {/* <pre>{JSON.stringify(courses, null, 4)}</pre> */}
 
       {courses &&
         courses.map((course) => (
           <>
-            <div className="media pt-2">
+            <div className="  media pt-2">
               <Avatar
                 size={80}
                 src={course.image ? course.image.Location : "/course.png"}

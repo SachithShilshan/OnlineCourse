@@ -20,12 +20,15 @@
   background-image: linear-gradient(to right, #000607,rgba(52, 52, 52, 0.8));
   color: #fff;
 }
-
+.jumbotron4 {
+	background-image: linear-gradient(to right, rgb(0, 6, 7,0),rgba(52, 52, 52, 0.0));
+	color: #fff;
+  }
 .homepage-bgimage {
-  background: url("home-bg.jpg");
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#180a03, #441101);
   
 }
 
@@ -42,6 +45,19 @@
   background-repeat: repeat;
   background-size: cover;
 }
+.login-box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  padding: 120px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.3);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.7);
+  border-radius: 10px;
+}
+
 
 .blur{
   filter: blur(4px);
@@ -54,7 +70,7 @@ body {
   margin:0;
   padding:0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
+  background: linear-gradient(#672f15, #441101);
 }
 
 .login-box {
@@ -69,6 +85,52 @@ body {
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
 }
+
+.login-box3 {
+	position: absolute;
+	top: -20%;
+	left: 50%;
+	width: 400px;
+	padding: 20px;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+  }
+  .login-box4 {
+	  position: static;
+	background: rgba(147, 131, 131, 0.3);
+	box-sizing: border-box;
+	box-shadow: 0 20px 25px rgba(0,0,0,.8);
+	border-radius: 10px;
+  }
+
+  .login-box5 {
+	position: absolute;
+	top: 280%;
+	left: 50%;
+	width: 800px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+  }
+
+  .login-box6 {
+	position: absolute;
+	top: 280%;
+	left: 50%;
+	width: 800px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background: rgba(101, 100, 100, 0.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+  }
 
 .login-box h2 {
   margin: 0 0 30px;
@@ -214,3 +276,5 @@ body {
     bottom: 100%;
   }
 }
+
+

@@ -36,9 +36,9 @@ const InstructorRevenue = () => {
 
   return (
     <InstructorRoute>
-      <div className="container">
+      <div className="login-box6 container ">
         <div className="row pt-2">
-          <div className="col-md-8 offset-md-2 bg-light p-5">
+          <div className="col-md-8 offset-md-2 light p-5">
             <h2>
               Revenue report <DollarOutlined className="float-right" />{" "}
             </h2>

@@ -42,7 +42,7 @@ const TopNav = () => {
      
       mode="horizontal"
       selectedKeys={[current]}
-      className="homepage-bgimage1"
+      className="homepage-bgimage1 text-warning p-4"
     >
       <Item
         key="/"

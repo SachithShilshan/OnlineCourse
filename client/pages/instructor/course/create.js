@@ -86,8 +86,9 @@ const CourseCreate = () => {
 
   return (
     <InstructorRoute>
-      <h1 className="jumbotron text-center square">Create Course</h1>
-      <div className="pt-3 pb-3">
+    <h1 className="jumbotron4 text-center square"><div className="login-box4 ">Course Create</div></h1>
+
+      <div className=" login-box5 pt-3 pb-3">
         <CourseCreateForm
           handleSubmit={handleSubmit}
           handleImage={handleImage}
@@ -99,9 +100,9 @@ const CourseCreate = () => {
           handleImageRemove={handleImageRemove}
         />
       </div>
-      <pre>{JSON.stringify(values, null, 4)}</pre>
+      
       <hr />
-      <pre>{JSON.stringify(image, null, 4)}</pre>
+     
     </InstructorRoute>
   );
 };

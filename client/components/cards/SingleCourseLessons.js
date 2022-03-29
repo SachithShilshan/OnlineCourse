@@ -11,7 +11,7 @@ const SingleCourseLessons = ({
     <div className="container">
       <div className="row">
         <div className="col lesson-list">
-          {lessons && <h4>{lessons.length} Lessons</h4>}
+         
           <hr />
           <List
             itemLayout="horizontal"
@@ -19,6 +19,7 @@ const SingleCourseLessons = ({
             renderItem={(item, index) => (
               <Item>
                 <Item.Meta
+                className="text-warning "
                   avatar={<Avatar>{index + 1}</Avatar>}
                   title={item.title}
                 />

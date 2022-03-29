@@ -11,19 +11,19 @@ const Index = ({ courses }) => {
   //     setCourses(data);
   //   };
   //   fetchCourses();
-  // }, []);
+  // }, []); <div className="login-box ">
 
   return (
     <>
      <div className="homepage-bgimage repeat">
         <div className="col-md-4 offset-md-4 pb-5"></div>
-      <h1 className="homepage-bgimage3 text-center">
+      <h1 className=" text-center">
         Online Courses
       </h1>
-      <div className="container-fluid">
-        <div className="row">
+      <div className="container col-md-8 row-md-10 ">
+        <div className="row ">
           {courses.map((course) => (
-            <div key={course._id} className="col-md-4">
+            <div key={course._id} className="col-md-6  center">
               <CourseCard course={course} />
             </div>
           ))}

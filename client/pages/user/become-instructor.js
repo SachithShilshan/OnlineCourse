@@ -36,16 +36,18 @@ const BecomeInstructor = () => {
   return (
     <>
       <div className="homepage-bgimage">
-        <div className="col-md-4 offset-md-4 pb-5">
-          <h1 className="jumbotron text-center bg-primary square">Become Instructor</h1>
+        <div className="login-box">
+          <h2 className=" text-center"   
+            >Become Instructor</h2>
 
           <div className="container">
             <div className="row">
               <div className="col-md-20 offset-md-20 text-center">
-                <div className="pt-4">
-                  <UserSwitchOutlined className="display-1 pb-3" />
+                <div className="pt-2">
+                  <UserSwitchOutlined className="display-4 pb-1" />
                   <br />
-                  <h2>Setup payout to publish courses</h2>
+             
+                  <h>Setup payout to publish courses</h>
                   <p className="lead text-warning">
                     course partners with stripe to transfer earnings to your bank
                     account

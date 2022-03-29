@@ -31,7 +31,7 @@ const SingleCourseJumbotron = ({
   } = course;
 
   return (
-    <div className="jumbotron bg-primary square">
+    <div className="login-box4  col-md-12 pb-0.5 square">
       <div className="row">
         <div className="col-md-8">
           {/* title */}
@@ -74,7 +74,7 @@ const SingleCourseJumbotron = ({
                 className="react-player-div"
                 url={lessons[0].video.Location}
                 light={image.Location}
-                width="100%"
+                width="50%"
                 height="225px"
               />
             </div>
