@@ -203,9 +203,9 @@ const CourseEdit = () => {
 
   return (
     <InstructorRoute>
-      <h1 className="jumbotron text-center square">Update Course</h1>
+       <h1 className="jumbotron4 text-center square"><div className="login-box4 ">Update Course</div></h1>
       {/* {JSON.stringify(values)} */}
-      <div className="pt-3 pb-3">
+      <div className=" login-box7 pb-5 ">
         <CourseCreateForm
           handleSubmit={handleSubmit}
           handleImageRemove={handleImageRemove}
@@ -217,14 +217,7 @@ const CourseEdit = () => {
           uploadButtonText={uploadButtonText}
           editPage={true}
         />
-      </div>
-      {/* <pre>{JSON.stringify(values, null, 4)}</pre>
-      <hr />
-      <pre>{JSON.stringify(image, null, 4)}</pre> */}
-
-      <hr />
-
-      <div className="row pb-5">
+         <div className="row pb-1">
         <div className="col lesson-list">
           <h4>{values && values.lessons && values.lessons.length} Lessons</h4>
           <List
@@ -255,6 +248,14 @@ const CourseEdit = () => {
           ></List>
         </div>
       </div>
+      </div>
+      {/* <pre>{JSON.stringify(values, null, 4)}</pre>
+      <hr />
+      <pre>{JSON.stringify(image, null, 4)}</pre> */}
+
+      <hr />
+
+     
 
       <Modal
         title="Update lesson"

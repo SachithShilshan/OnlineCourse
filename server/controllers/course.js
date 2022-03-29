@@ -35,7 +35,7 @@ export const uploadImage = async (req, res) => {
       Bucket: "cours-bucket",
       Key: `${nanoid()}.${type}`,
       Body: base64Data,
-      ACL: "public-read",
+     /// ACL: "public-read",
       ContentEncoding: "base64",
       ContentType: `image/${type}`,
     };
@@ -126,7 +126,7 @@ export const uploadVideo = async (req, res) => {
       Bucket: "cours-bucket",
       Key: `${nanoid()}.${video.type.split("/")[1]}`,
       Body: readFileSync(video.path),
-      ACL: "public-read",
+     // ACL: "public-read",
       ContentType: video.type,
     };
 

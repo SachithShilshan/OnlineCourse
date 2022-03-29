@@ -49,7 +49,7 @@ const InstructorIndex = () => {
                       {course.lessons.length} Lessons
                     </p>
 
-                    {course.lessons.length < 5 ? (
+                    {course.lessons.length < 0 ? (
                       <p style={myStyle} className="text-warning">
                         At least 5 lessons are required to publish a course
                       </p>

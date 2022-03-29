@@ -131,7 +131,31 @@ body {
 	box-shadow: 0 15px 25px rgba(0,0,0,.6);
 	border-radius: 10px;
   }
+  .login-box7 {
+	position: absolute;
+	top: 500%;
+	left: 50%;
+	width: 800px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+  }
 
+  .login-box8 {
+	position: absolute;
+	top: 500%;
+	left: 50%;
+	width: 800px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	background: rgba(117, 115, 115, 0.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+  }
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;

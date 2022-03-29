@@ -16,10 +16,12 @@ const Index = ({ courses }) => {
   return (
     <>
      <div className="homepage-bgimage repeat">
-        <div className="col-md-4 offset-md-4 pb-5"></div>
-      <h1 className=" text-center">
-        Online Courses
-      </h1>
+        <div className="col-md-4 offset-md-4 pb-1"></div>
+      <h2 className=" text-center text-warning p-5">
+    
+<span class="d-block p-3 bg-dark text-white">Online Courses</span>
+       
+      </h2>
       <div className="container col-md-8 row-md-10 ">
         <div className="row ">
           {courses.map((course) => (
